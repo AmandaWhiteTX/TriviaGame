@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url(../images/bkgd5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  
+}
+
+#container {
+  margin: 0 20%;
+  background-color: rgba(13, 55, 240, 0.65);
+  padding: 10px;
+}
+#quiz-area {
+  padding-top: 1%;
+  margin-top:1%;
+  margin: 0 5%;
+  background-color: rgba(51, 3, 10, 0.65);
+  padding: 10px;
+}
+
+button {
+  width: 70%;
+  height: 30%;
+  margin: .5%;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 150%;
+}
+
+button:hover {
+  border: 3px solid #0d0458;
+}
+
+#CandyImg {
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+  margin-bottom: 5px;
+  font-size: 45px;
+  text-shadow: 0px 2px 11px #000000;
+}
+
+h3 {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 18px;
+  text-shadow: 0px 2px 11px #000000;
+  text-decoration-color;: black
+
+}
