@@ -7,7 +7,7 @@ var questions = [{
   question: "What candy that started in Golden, Colorado, was given its name to suggest it is produced by a “hospitable western company”?",
   choices: ["Pay Day", "Jelly Belly", "Jolly Rancher", "Hersheys"],
   correctAnswer: 'Jolly Rancher',
-  image: "assets/images/Jolly Rancher.jpg"
+  image: "assets/images/Jolly Rancher.jpg" 
 },
 {
   question: "Americans are not known for our healthy food choices, what percentage of the American Diet comes from candy?",
@@ -58,7 +58,7 @@ var questions = [{
   image: "assets/images/Reeses.jpg"
 },
 {
-  question: "What Sweet Treat was orignaly called Fairy Floss until it got is now common name in 1920's?",
+  question: "What Sweet Treat was originally called Fairy Floss, until it was renamed in the 1920's?",
   choices: ["Candy Necklaces", "Twizzlers", "Licorice Stings", "Cotton Candy"],
   correctAnswer: 'Cotton Candy',
   image: "assets/images/CottonCandy.jpg"
@@ -116,7 +116,7 @@ var game = {
     game.counter--;
     $('#counter-number').text(game.counter);
     if (game.counter === 0) {
-      console.log("TIME'S UP");
+     // console.log("TIME'S UP");
       game.timeUp();
     }
   },
@@ -155,7 +155,7 @@ var game = {
     $("#counter-number").text(game.counter);
     panel.append("<h3>Correct Answers: " + game.correct + "</h3>");
     panel.append("<h3>Incorrect Answers: " + game.incorrect + "</h3>");
-    panel.append("<h3>Unanswered: " + (questions.length - (game.incorrect)) + "</h3>");
+    panel.append("<h3>Unanswered: " + (questions.length - (game.incorrect + game.incorrect)) + "</h3>");
     panel.append("<br><button id='start-over'>Wanna play again?</button>");
   },
 
