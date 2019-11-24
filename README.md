@@ -1,5 +1,3 @@
 # TriviaGame
-basic quiz
 
-
-
+https://amandawhitetx.github.io/TriviaGame/
